@@ -67,7 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="@string/our_partners"
+        android:text="@string/txt_logos"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/btnDisplay"
