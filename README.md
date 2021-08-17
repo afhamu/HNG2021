@@ -1,2 +1,2 @@
-# HNG2021
+# HNG INTERNSHIP 2021 MOBILE
 HNG Internship Task Two
