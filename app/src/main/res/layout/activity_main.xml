@@ -11,17 +11,15 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/editText_someText"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
-        android:layout_width="0dp"
+        android:layout_width="379dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginTop="32dp"
         android:hint="@string/enter_some_text_here"
         app:boxStrokeColor="@color/teal_700"
         app:hintTextColor="@color/teal_700"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/zuri_logo">
+        app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txt"
@@ -47,22 +45,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:textSize="25sp"
         android:text=""
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnDisplay" />
 
     <ImageView
         android:id="@+id/zuri_logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:contentDescription="@string/zuri_logo"
         android:src="@drawable/zuri"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/ingressive_logo"
+        app:layout_constraintStart_toStartOf="@+id/ingressive_logo"
+        app:layout_constraintTop_toBottomOf="@+id/ingressive_logo" />
 
     <TextView
         android:id="@+id/textView_partners"
